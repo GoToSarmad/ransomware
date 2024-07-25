@@ -1,4 +1,4 @@
-FROM golang:latest
+FROM golang:1.23rc2
 ENV WORKDIR /app
 ENV GOROOT /usr/local/go
 ADD . $WORKDIR
